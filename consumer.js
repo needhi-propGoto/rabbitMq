@@ -10,6 +10,10 @@ const connect = async () => {
       console.log(`Received job with content ${message.content.toString()}`);
     });
 
+    // if(message.content.toString() == '7') {
+    //     console.log("Job completed");
+    //     channel.ack(message);
+    // }
     console.log("Waiting for messages...");
   } catch (error) {
     console.error(error);
