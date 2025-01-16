@@ -14,7 +14,7 @@ const connect = async () => {
     //     console.log("Job completed");
     //     channel.ack(message);
     // }
-    console.log("Waiting for messages...");
+    console.log("Waiting for messages...")
   } catch (error) {
     console.error(error);
   }
